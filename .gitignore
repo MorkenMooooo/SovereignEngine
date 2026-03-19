@@ -1,0 +1,7 @@
+# 忽略名为 my_folder 的整个文件夹
+project_files/
+
+# 或者，如果你想忽略所有 .exe, .iso, .zip 文件（不管它们在哪个文件夹）
+*.exe
+*.iso
+*.zip

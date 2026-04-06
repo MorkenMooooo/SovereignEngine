@@ -3,7 +3,7 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.portWin": "COM12",
+  "idf.portWin": "COM6",
   "idf.currentSetup": "D:\\ESP_IDF\\v5.5.2\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
@@ -12,7 +12,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\Administrator\\Desktop\\ESP32Project\\09_gpio_interrupt\\build"
+    "--compile-commands-dir=c:\\Users\\Administrator\\Desktop\\ESP32Project\\10_pwm_02\\build"
   ],
   "idf.flashType": "UART"
 }

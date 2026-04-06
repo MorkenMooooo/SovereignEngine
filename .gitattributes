@@ -1,0 +1,5 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Force README.md to always use LF line endings and UTF-8 encoding
+README.md text eol=lf charset=utf-8

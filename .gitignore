@@ -1,7 +1,47 @@
-# 忽略名为 my_folder 的整个文件夹
-project_files/
+# 忽略所有项目的编译生成目录
+**/build/
 
-# 或者，如果你想忽略所有 .exe, .iso, .zip 文件（不管它们在哪个文件夹）
-*.exe
-*.iso
+# 忽略 VS Code 配置文件
+.vscode/
+*.code-workspace
+
+# 忽略 JetBrains IDE 配置文件
+.idea/
+.gradle/
+
+# 忽略操作系统生成的文件
+*.DS_Store
+*.pyc
+*.swp
+*.swo
+*.bak
+
+# 忽略日志文件
+*.log
+*.log.*
+
+# 忽略环境配置文件
+.env
+
+# 忽略临时文件
+*.tmp
+*.tmp.*
+*.bak
+*.bak.*
+*.old
+*.old
+
+# 忽略其他不需要版本控制的文件
 *.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 忽略project_files 目录及目录下的所有文件
+project_files/
+project_files/*
+project_files/**/*
+
+# 忽略lcd目录及目录下的所有文件
+lcd/
+lcd/*

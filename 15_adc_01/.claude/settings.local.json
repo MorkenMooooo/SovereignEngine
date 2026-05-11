@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__esp-idf-eim__build_project",
+      "Bash(eim run *)",
+      "Bash(C:/Espressif/tools/python/v6.0/venv/Scripts/python.exe *)"
+    ]
+  }
+}

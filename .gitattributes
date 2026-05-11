@@ -1,5 +1,18 @@
-# Set default behavior to automatically normalize line endings.
-* text=auto
+# 所有文本文件强制使用 LF 换行符，消除跨平台警告
+* text=auto eol=lf
 
 # Force README.md to always use LF line endings and UTF-8 encoding
 README.md text eol=lf charset=utf-8
+
+
+# 二进制文件保护 (防止 Git 乱改图片和编译产物)
+*.bin binary
+*.jpg binary
+*.png binary
+*.webp binary
+*.pdf binary
+*.a binary
+*.obj binary
+*.o binary
+*.elf binary
+*.map binary

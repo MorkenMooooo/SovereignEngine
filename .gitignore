@@ -1,9 +1,18 @@
 # 忽略所有项目的编译生成目录
 **/build/
 
-# 忽略 VS Code 配置文件
-.vscode/
+# 忽略 VS Code 配置文件（任意层级）
+**/.vscode/
 *.code-workspace
+
+# 忽略所有项目的 .devcontainer 配置文件夹（任意层级）
+**/.devcontainer
+
+# 忽略所有项目的 .clangd 文件（任意层级）
+**/.clangd
+
+# 忽略所有项目的 .claude 文件夹（任意层级）
+**/.claude/
 
 # 忽略 JetBrains IDE 配置文件
 .idea/
@@ -22,26 +31,23 @@
 
 # 忽略环境配置文件
 .env
+sdkconfig
 
-# 忽略临时文件
+# 忽略临时文件（合并重复项）
 *.tmp
 *.tmp.*
-*.bak
 *.bak.*
 *.old
-*.old
+*.old.*
 
-# 忽略其他不需要版本控制的文件
+# 忽略其他不需要版本控制的压缩包
 *.zip
 *.tar.gz
 *.rar
 *.7z
 
-# 忽略project_files 目录及目录下的所有文件
+# 忽略指定的项目目录（递归忽略全部内容）
 project_files/
-project_files/*
-project_files/**/*
-
-# 忽略lcd目录及目录下的所有文件
 lcd/
-lcd/*
+MoooooMetStation_01/
+esp_project_files/
